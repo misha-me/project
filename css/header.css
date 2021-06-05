@@ -1,0 +1,34 @@
+header {
+  height: 768px;
+}
+.menu {
+  background: #009f9f;
+  color: #fff;
+  text-align: center;
+
+  height: 76px;
+
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.menu a {
+  text-decoration: none;
+  color: #fff;
+
+}
+.menu ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.menu ul li {
+  border-right: 1px solid ;
+}
+.menu ul li:last-child {
+  border-right: none ;
+}
+.head {
+  text-align: center;
+
+  margin: auto auto;
+}
